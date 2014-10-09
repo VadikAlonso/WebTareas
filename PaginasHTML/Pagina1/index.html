@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>"My Favorite Stuffs" Web-Shopping</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            header{
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            
+            p[tipo^="c"]{
+                color: crimson;
+                font-family: cursive;
+            }
+            
+            table{
+                background-image: url("fire.jpg");
+                border-bottom-style: groove;
+            }
+            
+            th{
+                color: fuchsia;
+                background-color: lime;
+            }
+            
+            tr[categoria$="1"]{
+                background-color: gold;
+                font-family: serif;
+                color:mediumvioletred;
+            }
+            
+            tr[categoria$="2"]{
+                font-family: fantasy;
+                color:seashell;
+            }
+            
+            #navi{
+                background-color: skyblue;
+                padding-right: auto;
+                margin: initial
+            }
+            
+            footer{
+                background-color: black;
+                color: whitesmoke;
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body background="DP.jpg" >
+        <header>
+            <nav id="navi" >
+                <A name="start"></A>
+		<a href="#Games">Juegos</a> 
+		<a href="#Peliculas">Peliculas</a> 
+		<a href="#Autos">Motos</a> 
+                <form>
+                    Buscar: <input type="text"  >
+                </form>
+            </nav>
+            <br>
+            <br>
+            <section>
+                <article>
+                    <header id="j">
+                        <table BORDER bgcolor="green" >
+                            <th>Juegos</th>
+                            <th>Imágen</th>¿
+				<tr categoria="p1">
+                                    <td>Mario</td>
+                                    <td><img src="mario.png" height="80"></td>
+				</tr>
+				<tr categoria="p2">
+                                    <td>Pokemon</td>
+                                    <td><img src="pk.jpg" width="80"></td>
+                                </tr>
+				<tr categoria="p1">
+                                    <td>Yoshi</td>
+                                    <td><img src="ys.jpg" width="80"></td>
+                                </tr>
+				<tr categoria="p2">
+                                    <td>Zelda</td>
+                                    <td><img src="zl.jpg" width="80"></td>
+				</tr>
+                        </table>
+                    </header>
+                </article>
+                
+                <aside  style="background-color: black; color: whitesmoke">
+                        <form>
+                            Regístrate en nuestros usuarios !!<br>
+                            Usuario: <input type="text" name="user"><br>
+                            Correo: <input type="text" name="mail"><br>
+                            Contraseña: <input type="password" name="pass"><br>
+                            <input type="checkbox" name="vehicle" value="Bike"> Quiero correos relacionados a esta página<br>
+                            <input type="submit" value="submit">
+                        </form>
+                </aside>
+                
+            </section>
+            
+            <br>
+            <br>
+            <section>
+                <article>
+                    <header id="p">
+                        <table BORDER bgcolor="red" >
+                            <th>Peliculas</th>
+                            <th>Imágen</th>
+				<tr categoria="p2">
+                                    <td>Titanic</td>
+                                    <td><img src="tt.jpg" width="100"></td>
+				</tr>
+				<tr categoria="p1">
+                                    <td>Pokemon 200</td>
+                                    <td><img src="p2000.jpg" width="100"></td>
+                                </tr>
+				<tr categoria="p2">
+                                    <td>Shrek</td>
+                                    <td><img src="shr.jpeg" width="100"></td>
+                                </tr>
+				<tr categoria="p1">
+                                    <td>Narnia</td>
+                                    <td><img src="nar.jpg" width="100"></td>
+				</tr>
+                        </table>
+                    </header>
+                </article>
+            </section>
+            <br>
+            <br>
+            <section>
+                <article>
+                    <header id="m">
+                        <table BORDER bgcolor="blue" >
+                            <th>Motos</th>
+                            <th>Imágen</th>
+				<tr categoria="p1">
+                                    <td>BMW 1200</td>
+                                    <td><img src="bmw.jpg" width="200"></td>
+				</tr>
+				<tr categoria="p2">
+                                    <td>Honda Unicorn</td>
+                                    <td><img src="hu.jpg" width="200"></td>
+                                </tr>
+				<tr categoria="p1">
+                                    <td>Pulsar 200ns</td>
+                                    <td><img src="p2.jpg" width="200"></td>
+                                </tr>
+				<tr categoria="p2">
+                                    <td>Yamaha r15</td>
+                                    <td><img src="yr.jpg" width="200"></td>
+				</tr>
+                        </table>
+                    </header>
+                </article>
+            </section>
+            <P style="background-color: black; color: whitesmoke">Volver <A href="#start">arriba</A>
+            </p>
+        </header>
+            <footer>
+                <div>And that's it!</div>
+		Todos los derechos reservados Vadik™	
+            </footer>
+    </body>
+</html>

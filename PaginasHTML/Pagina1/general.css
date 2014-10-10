@@ -1,0 +1,65 @@
+
+/* 
+    Created on : 9/10/2014, 09:22:44 PM
+    Author     : Vadik
+*/
+
+header{
+}
+     
+nav{ 
+  background: linear-gradient(#ac1607, #eaee01);
+  width: 80%;	/*es relativo respecto a su contenedor no a la pagina*/
+  height: 20%;
+  margin-right: auto; /*no hay un center, se usa esto */
+  margin-left: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  
+}
+
+a{
+    font: italic;
+    color: window;
+}
+       
+.menu{
+    color: cyan;
+}
+
+p{
+    color:whitesmoke;
+}
+
+table{
+    background-image: url("fire.jpg");
+    border-bottom-style: groove;
+}
+            
+th{
+    color: fuchsia;
+    background-color: lime;
+}
+            
+tr[categoria$="1"]{
+    background-color: gold;
+    font-family: serif;
+    color:mediumvioletred;
+}
+            
+tr[categoria$="2"]{
+    font-family: fantasy;
+    color:seashell;
+}
+            
+#navi{
+    background-color: skyblue;
+    padding-right: auto;
+    margin: initial
+}
+            
+footer{
+    color: whitesmoke;
+    font-family: cursive;
+}
+

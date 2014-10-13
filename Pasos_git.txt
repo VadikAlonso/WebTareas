@@ -1,0 +1,37 @@
+Git clone git@github.com:milkton/name_repo
+
+Git status
+
+Creando rama
+Git checkout -b miRama
+
+Git status: nombre nueva rama
+
+Touch index.html
+
+Git add .
+Git commit -m 'esto es un intento'
+Git push origin miRama
+
+Con origin se le dice a que rama va ir
+
+Checkout para cambiar a rama master,  usamos
+Git checkout master
+
+Merge se hace en la master para que jale la modificacion desde la rama donde quiero juntar la info
+
+Git merge miRama
+
+Solo se hace:
+Git pull origin master
+Cuando hayamos terminado de editar
+
+Pull sirve para bajar todas las modificaciones
+
+Add
+Commit 
+Push
+
+Luego del ultimo commit se hace merge con el master 
+Pull para volver a iniciar 
+Pull origin nombreRama

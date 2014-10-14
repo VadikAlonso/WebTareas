@@ -1,0 +1,1 @@
+Información de las carpetas, pagina1 tiene info de la página de la primer semana, pagPrincipal tiene la pag de la segunda semana y la cual será mi página principal, basada en una tienda de videojuegos.

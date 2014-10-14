@@ -4,5 +4,4 @@ http://www.riseagainst.com/
 
 Con diseño sencillo, llamativo, eficiente y "nice"
 
-
-Cambiar el color del logo a escala de grises
+Se tiene que ver como hacer que al dar loggin la página quite el loggin y ponga que está conectado el usuario 

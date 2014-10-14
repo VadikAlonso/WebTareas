@@ -3,3 +3,6 @@ http://www.riseagainst.com/
 (fecha: 12 de Octubre de 2014)
 
 Con diseño sencillo, llamativo, eficiente y "nice"
+
+
+Cambiar el color del logo a escala de grises

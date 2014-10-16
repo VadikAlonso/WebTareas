@@ -1,0 +1,1 @@
+Página con uso de la base de datos, crea cuenta, inicia seción y cuando está en seción permite modificar la cuenta, NO todos los botones sirven, de hecho solo los que tienen que ver con la base de datos sirven.

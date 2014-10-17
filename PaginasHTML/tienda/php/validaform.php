@@ -31,14 +31,21 @@ if(!isset($_SESSION)){
 	$user = $_POST['usuario'];
 	$pass = $_POST['contra'];
 
+if ($user!="") {
+
 	$consulta = "SELECT * FROM usuarios WHERE user='".$user."' AND pass='".$pass."'";
 
 	if (mysqli_fetch_assoc($conexion->query($consulta))) {
 		$_SESSION['usuario'] = $user;
-		//echo "Hola ".$user;
-		header("Location: inok.php");
+
+		$_SESSION['entra']=1;
+
+		//header("Location: inok.php");
 	}else{
-		header("Location: inbad.php"); //redirigue a esta otra pag si no
+		$_SESSION['entra']=0;
+		//header("Location: inbad.php"); //redirigue a esta otra pag si no
 	}
+}
+	header("Location: ./../index.php");
 
 ?>

@@ -4,7 +4,6 @@ if(!isset($_SESSION)){
 	session_start();
 
 	}
-	//para terminar sesion ->> session_destroy()
 
 require_once 'connect.php'; //Linea para llamar a connect
 
@@ -16,15 +15,16 @@ require_once 'connect.php'; //Linea para llamar a connect
 	$otraConsulta = "UPDATE usuarios SET pass='".$newpass."' WHERE user='".$_SESSION['usuario']."'"; 	//Consulta para cambiar la contraseña
 
 	if (mysqli_fetch_assoc($conexion->query($consulta))) {
-		//$_SESSION['usuario'] = $user;
-		//echo "Hola ".$user;
 
 		$conexion->query($otraConsulta);
 
-		header("Location: inok.php");
+		//header("Location: ./../index.php");
+		$_SESSION['error']=0;
 	}else{
-
-		header("Location: setaccount.php"); //redirigue a esta otra pag si no
+		$_SESSION['error']=1;
+		//header("Location: ./../index.php");
 	}
+
+	header("Location: ./../index.php");
 
 ?>

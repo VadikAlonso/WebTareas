@@ -21,7 +21,8 @@ if(!isset($_SESSION)){
 	$registro_object = $conexion->query($registro_query);
 	
 	//echo "usuario registrado";
-	
-	header("Location: inok.php");
+	echo '<script type="text/javascript">alert("Account Done!");</script>"';
+	$_SESSION['error']=2;
+	header("Location: ./../index.php");
 
 ?>
